@@ -1,3 +1,4 @@
+
 # Cypress QA Project - AutomationExercise.com
 
 This is a comprehensive Cypress automation framework covering UI, API, Integration, and Security tests for [AutomationExercise.com](https://automationexercise.com/).
