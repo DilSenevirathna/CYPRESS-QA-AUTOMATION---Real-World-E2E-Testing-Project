@@ -1,0 +1,17 @@
+{
+  "name": "cypress-real-world-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "report:merge": "mochawesome-merge cypress/reports/*.json > cypress/reports/output.json",
+    "report:generate": "marge cypress/reports/output.json --reportDir cypress/reports --inline",
+    "test:report": "npm run test && npm run report:merge && npm run report:generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
